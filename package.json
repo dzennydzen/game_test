@@ -19,12 +19,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src -d dist"
+    "build": "babel src -d dist",
+    "lint": "eslint ."
   },
   "devDependencies": {
     "@babel/cli": "^7.27.2",
     "@babel/core": "^7.27.4",
-    "@babel/preset-env": "^7.27.2"
+    "@babel/preset-env": "^7.27.2",
+    "@eslint/js": "^9.28.0",
+    "eslint": "^9.28.0",
+    "globals": "^16.2.0"
   },
   "dependencies": {
     "core-js": "^3.43.0"
