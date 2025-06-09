@@ -1,0 +1,23 @@
+{
+  "name": "game_test",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "keywords": [
+    "game"
+  ],
+  "homepage": "https://github.com/dzennydzen/game_test#readme",
+  "bugs": {
+    "url": "https://github.com/dzennydzen/game_test/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dzennydzen/game_test.git"
+  },
+  "license": "ISC",
+  "author": "Dzenny",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
